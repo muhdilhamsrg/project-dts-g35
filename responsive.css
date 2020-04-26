@@ -1,0 +1,28 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .team-item {
+    width: 30%;
+  }
+
+  .team-item-img {
+    max-width: 150px;
+    /* margin: 0 auto 30px auto; */
+    margin: auto;
+  }
+
+  .team-item-name h3 {
+    font-size: 16px;
+    font-weight: 200px;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .team-item {
+    width: 100%;
+  }
+
+  /* .team-item::before {
+    background: none !important;
+  } */
+}
